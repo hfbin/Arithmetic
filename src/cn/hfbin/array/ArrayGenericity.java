@@ -3,22 +3,21 @@ package cn.hfbin.array;
 /**
  * Created by: HuangFuBin
  * Date: 2018/7/20
- * Time: 17:28
- * Such description: 自定义数组
+ * Time: 21:52
+ * Such description: 泛型数组<E> 不可以是基本类型（int，float，double...）必须传的是基本类型的包装类（Integer,Float,Dloule...）
  */
-public class MyArray {
-
-    private int[] data;
+public class ArrayGenericity<E> {
+    private E[] data;
     private int size;
 
     // 构造函数，传入数组的容量capacity构造Array
-    public MyArray(int capacity){
-        data = new int[capacity];
+    public ArrayGenericity(int capacity){
+        data = (E[])new Object[capacity];
         size = 0;
     }
 
     // 无参数的构造函数，默认数组的容量capacity=10
-    public MyArray(){
+    public ArrayGenericity(){
         this(10);
     }
 
@@ -37,18 +36,8 @@ public class MyArray {
         return size == 0;
     }
 
-    // 向所有元素后添加一个新元素
-    public void addLast(int e){
-        add(size, e);
-    }
-
-    // 在所有元素前添加一个新元素
-    public void addFirst(int e){
-        add(0, e);
-    }
-
     // 在index索引的位置插入一个新元素e
-    public void add(int index, int e){
+    public void add(int index, E e){
 
         if(size == data.length)
             throw new IllegalArgumentException("Add failed. Array is full.");
@@ -64,65 +53,77 @@ public class MyArray {
         size ++;
     }
 
+    // 向所有元素后添加一个新元素
+    public void addLast(E e){
+        add(size, e);
+    }
+
+    // 在所有元素前添加一个新元素
+    public void addFirst(E e){
+        add(0, e);
+    }
+
     // 获取index索引位置的元素
-    public int get(int index){
+    public E get(int index){
         if(index < 0 || index >= size)
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         return data[index];
     }
 
     // 修改index索引位置的元素为e
-    public void set(int index, int e){
+    public void set(int index, E e){
         if(index < 0 || index >= size)
             throw new IllegalArgumentException("Set failed. Index is illegal.");
         data[index] = e;
     }
 
     // 查找数组中是否有元素e
-    public boolean contains(int e){
+    public boolean contains(E e){
         for(int i = 0 ; i < size ; i ++){
-            if(data[i] == e)
+            if(data[i].equals(e))
                 return true;
         }
         return false;
     }
 
     // 查找数组中元素e所在的索引，如果不存在元素e，则返回-1
-    public int find(int e){
+    public int find(E e){
         for(int i = 0 ; i < size ; i ++){
-            if(data[i] == e)
+            if(data[i].equals(e))
                 return i;
         }
         return -1;
     }
 
     // 从数组中删除index位置的元素, 返回删除的元素
-    public int remove(int index){
+    public E remove(int index){
         if(index < 0 || index >= size)
             throw new IllegalArgumentException("Remove failed. Index is illegal.");
 
-        int ret = data[index];
+        E ret = data[index];
         for(int i = index + 1 ; i < size ; i ++)
-            data[i - 1] = data[i];
+            data[i - 1] = data[i];  //在替换时候最后一个是有值的，不影响结果，虽然java有垃圾回收机制，但是这个值并不会自动回收，一定记得置空。
         size --;
+        data[size] = null; //置空  loitering objects != memory leak
         return ret;
     }
 
     // 从数组中删除第一个元素, 返回删除的元素
-    public int removeFirst(){
+    public E removeFirst(){
         return remove(0);
     }
 
     // 从数组中删除最后一个元素, 返回删除的元素
-    public int removeLast(){
+    public E removeLast(){
         return remove(size - 1);
     }
 
     // 从数组中删除元素e
-    public void removeElement(int e){
+    public void removeElement(E e){
         int index = find(e);
         if(index != -1)
             remove(index);
+
     }
 
     @Override
@@ -138,29 +139,5 @@ public class MyArray {
         }
         res.append(']');
         return res.toString();
-    }
-
-    public static void main(String[] args) {
-
-        MyArray arr = new MyArray(20);
-        for(int i = 0 ; i < 10 ; i ++)
-            arr.addLast(i);
-        System.out.println(arr);
-
-        arr.add(1, 100);
-        System.out.println(arr);
-
-        arr.addFirst(-1);
-        System.out.println(arr);
-        // [-1, 0, 100, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-        arr.remove(2);
-        System.out.println(arr);
-
-        arr.removeElement(4);
-        System.out.println(arr);
-
-        arr.removeFirst();
-        System.out.println(arr);
     }
 }
