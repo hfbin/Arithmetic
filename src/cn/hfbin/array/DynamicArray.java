@@ -42,6 +42,7 @@ public class DynamicArray<E> {
         if(index < 0 || index > size)
             throw new IllegalArgumentException("Add failed. Require index >= 0 and index <= size.");
 
+        //开辟多一倍空间
         if(size == data.length)
             resize(2 * data.length);
 
