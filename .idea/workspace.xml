@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec39c4ad-1bf1-434f-820f-b6c6bc0f24b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Arithmetic/cn/hfbin/array/ArrayGenericity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Arithmetic/cn/hfbin/array/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Arithmetic/cn/hfbin/array/MyArray.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Arithmetic/cn/hfbin/array/Student.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/hfbin/array/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/hfbin/array/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/hfbin/array/MyArray.java" afterPath="$PROJECT_DIR$/src/cn/hfbin/array/MyArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayGenericity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayGenericity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -71,6 +64,33 @@
                 <element signature="e#2715#2716#0" expanded="true" />
                 <element signature="e#2772#2773#0" expanded="true" />
                 <element signature="e#2811#2812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+              <folding>
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#2575#2576#0" expanded="true" />
+                <element signature="e#2607#2608#0" expanded="true" />
+                <element signature="e#2664#2665#0" expanded="true" />
+                <element signature="e#2703#2704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/cn/hfbin/array/Student.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/array/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java" />
+        <option value="$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java" />
       </list>
     </option>
   </component>
@@ -360,12 +381,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532078637725</updated>
-      <workItem from="1532078641702" duration="3880000" />
+      <workItem from="1532078641702" duration="4036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3880000" />
+    <option name="totallyTimeSpent" value="4036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -540,6 +561,31 @@
             <element signature="e#2715#2716#0" expanded="true" />
             <element signature="e#2772#2773#0" expanded="true" />
             <element signature="e#2811#2812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#2575#2576#0" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#2664#2665#0" expanded="true" />
+            <element signature="e#2703#2704#0" expanded="true" />
           </folding>
         </state>
       </provider>
