@@ -3,7 +3,7 @@ package cn.hfbin.stack;
  * Created by: HuangFuBin
  * Date: 2018/7/21
  * Time: 23:03
- * Such description:
+ * Such description: Stack 接口方法
  */
 public interface Stack<E> {
 
