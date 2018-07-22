@@ -7,7 +7,7 @@ import java.util.Stack;
  * Created by: HuangFuBin
  * Date: 2018/7/22
  * Time: 12:54
- * Such description:
+ * Such description:  栈括号匹配应用   https://leetcode-cn.com/problems/valid-parentheses/description/
  */
 public class ParenthesisMatching {
     public boolean isValid(String s) {
