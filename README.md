@@ -3,7 +3,7 @@
 
 整型数组 --> 泛型数组 --> 动态数组  
 
-（代码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/array）
+（代码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/array  ）
 
 复杂度：
 
@@ -21,7 +21,7 @@
 
 括号匹配Demo:https://github.com/hfbin/Arithmetic/blob/master/src/cn/hfbin/stack/ParenthesisMatching.java
 
-（代码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/stack）
+（代码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/stack  ）
 
 复杂度ArrayStack<E>：
 push(E)、pop()、peek()、getSize()、isEmpty()   都为O（1）
