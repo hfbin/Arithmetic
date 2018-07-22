@@ -18,3 +18,11 @@
 栈是一种先进先出（LIFO）的数据结构。在计算机里，栈拥有着不可思议的作用。
 
 栈应用：1）撤销  2）程序调用系统栈 3）括号匹配（常见的面试算法题）
+
+括号匹配Demo:https://github.com/hfbin/Arithmetic/blob/master/src/cn/hfbin/stack/ParenthesisMatching.java
+
+（代码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/stack）
+
+复杂度ArrayStack<E>：
+push(E)、pop()、peek()、getSize()、isEmpty()   都为O（1）
+#### 3、利用动态数组来构建队列
