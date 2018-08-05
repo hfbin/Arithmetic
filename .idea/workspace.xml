@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec39c4ad-1bf1-434f-820f-b6c6bc0f24b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java" afterPath="$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +15,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/hfbin/queue/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="0">
               <caret line="254" column="49" lean-forward="false" selection-start-line="254" selection-start-column="49" selection-end-line="254" selection-end-column="49" />
               <folding>
                 <element signature="class#Array#0;class#Solution#0" expanded="false" />
                 <element signature="method#remove#0;class#Array#0;class#Solution#0" expanded="false" />
                 <element signature="class#Queue#0;class#Solution#0" expanded="false" />
                 <element signature="class#ArrayQueue#0;class#Solution#0" expanded="false" />
-                <element signature="e#6163#6178#0" expanded="true" />
-                <element signature="e#6337#6362#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParenthesisMatching.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayGenericity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2385">
+              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/MyArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/cn/hfbin/array/Student.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/array/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java" />
-        <option value="$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/stack/DynamicArray.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/stack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/stack/Array.java" />
@@ -70,9 +130,10 @@
         <option value="$PROJECT_DIR$/src/cn/hfbin/stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/stack/Demo.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/stack/Solution.java" />
-        <option value="$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/queue/Array.java" />
+        <option value="$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java" />
       </list>
     </option>
   </component>
@@ -91,10 +152,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="21" />
+    <option name="y" value="79" />
+    <option name="width" value="1934" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -137,16 +198,30 @@
               <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hfbin" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hfbin" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hfbin" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +232,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="queue&#9;FILE&#9;jar://D:/tools/Java/jdk/jre/lib/rt.jar!/java/util/Queue.class&#10;stack&#9;FILE&#9;jar://D:/tools/Java/jdk/jre/lib/rt.jar!/java/util/Stack.class&#10;arr&#9;FILE&#9;jar://D:/tools/Java/jdk/src.zip!/java/util/ArrayList.java&#10;List&#9;PSI&#9;JAVA://java.util.List&#10;array&#9;FILE&#9;jar://D:/tools/Java/jdk/jre/lib/rt.jar!/java/sql/Array.class&#10;Int&#9;PSI&#9;JAVA://java.awt.TexturePaintContext.Int" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../seckill" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -358,20 +433,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayGenericity" />
       <item index="2" class="java.lang.String" itemvalue="Application.DynamicArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ParenthesisMatching" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ParenthesisMatching" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.ParenthesisMatching" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DynamicArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayGenericity" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DynamicArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayGenericity" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -391,14 +464,16 @@
       <workItem from="1532078641702" duration="8302000" />
       <workItem from="1532160562514" duration="5969000" />
       <workItem from="1532228310718" duration="8681000" />
+      <workItem from="1532441498496" duration="633000" />
+      <workItem from="1533479549564" duration="2545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22952000" />
+    <option name="totallyTimeSpent" value="26130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -408,19 +483,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32451254" sideWeight="0.5057307" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63733906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29526463" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32451254" sideWeight="0.49426934" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2877193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33099416" sideWeight="0.49426934" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22707736" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22961374" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933232" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49239767" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49239767" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -437,6 +512,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/queue/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#Array#0;class#Solution#0" expanded="false" />
+            <element signature="method#remove#0;class#Array#0;class#Solution#0" expanded="false" />
+            <element signature="class#Queue#0;class#Solution#0" expanded="false" />
+            <element signature="class#ArrayQueue#0;class#Solution#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -449,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,10 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="206" column="13" lean-forward="false" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="260" column="16" lean-forward="false" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-858">
           <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,47 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/MyArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="164" column="5" lean-forward="true" selection-start-line="142" selection-start-column="4" selection-end-line="164" selection-end-column="5" />
-          <folding>
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#398#399#0" expanded="false" />
-            <element signature="e#444#445#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#597#598#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-            <element signature="e#766#767#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#2467#2468#0" expanded="false" />
-            <element signature="e#2499#2500#0" expanded="false" />
-            <element signature="e#2558#2559#0" expanded="false" />
-            <element signature="e#2597#2598#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -624,10 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1888">
           <caret line="313" column="28" lean-forward="false" selection-start-line="313" selection-start-column="28" selection-end-line="313" selection-end-column="28" />
-          <folding>
-            <element signature="e#11695#11696#0" expanded="false" />
-            <element signature="e#11730#11731#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#962#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,25 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +698,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="357">
             <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -698,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,8 +722,8 @@
         <state relative-caret-position="136">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,15 +738,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/hfbin/queue/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="0">
           <caret line="254" column="49" lean-forward="false" selection-start-line="254" selection-start-column="49" selection-end-line="254" selection-end-column="49" />
           <folding>
             <element signature="class#Array#0;class#Solution#0" expanded="false" />
             <element signature="method#remove#0;class#Array#0;class#Solution#0" expanded="false" />
             <element signature="class#Queue#0;class#Solution#0" expanded="false" />
             <element signature="class#ArrayQueue#0;class#Solution#0" expanded="false" />
-            <element signature="e#6163#6178#0" expanded="true" />
-            <element signature="e#6337#6362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2385">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/Java/jdk/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/array/ArrayGenericity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/stack/ParenthesisMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,10 +15,12 @@ public class ParenthesisMatching {
         for (int i = 0 ; i < s.length() ; i ++){
             char c = s.charAt(i);
             if(c == '(' || c == '{' || c == '['){
+                //入栈
                 stack.push(c);
             }else {
                 if (stack.isEmpty())
                     return false;
+                //移除栈顶
                 char topChar = stack.pop();
                 if(c ==')' && topChar != '(')
                     return false;
