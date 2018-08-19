@@ -4,7 +4,7 @@ package cn.hfbin.queue;
  * Created by: HuangFuBin
  * Date: 2018/8/11
  * Time: 22:54
- * Such description:  LoopQueue 会浪费掉一个一个空间
+ * Such description: 循环队列 LoopQueue 会浪费掉一个一个空间
  */
 public class LoopQueue<E> implements Queue<E> {
 
