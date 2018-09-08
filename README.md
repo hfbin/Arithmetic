@@ -25,4 +25,16 @@
 
 复杂度ArrayStack<E>：
 push(E)、pop()、peek()、getSize()、isEmpty()   都为O（1）
+
 #### 3、利用动态数组来构建队列
+队列也是一种线性结构。相比数组，队列对应的操作是数组子集。只能从一端（队尾）添加元素，只能从另一端（队首）取出元素。
+
+队列是一种先进先出的数据结构（先到先得FIFO）
+
+复杂度ArrayQueue<E>：
+enqueue(E) 均摊、front()、getsize()、isEmpty() 都为O（1）,而 dequeue()为O（n）
+
+
+循环队列复杂度LoopQueue<E>：
+enqueue(E) 均摊、dequeue() 均摊、front()、getsize()、isEmpty() 都为O（1）
+
