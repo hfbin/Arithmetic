@@ -34,7 +34,9 @@ push(E)、pop()、peek()、getSize()、isEmpty()   都为O（1）
 复杂度ArrayQueue<E>：
 enqueue(E) 均摊、front()、getsize()、isEmpty() 都为O（1）,而 dequeue()为O（n）
 
+(代码：https://github.com/hfbin/Arithmetic/blob/master/src/cn/hfbin/queue/ArrayQueue.java)
 
 循环队列复杂度LoopQueue<E>：
 enqueue(E) 均摊、dequeue() 均摊、front()、getsize()、isEmpty() 都为O（1）
 
+(代码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/queue/LoopQueue.java)
