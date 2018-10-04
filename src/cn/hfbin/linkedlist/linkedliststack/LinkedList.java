@@ -1,4 +1,4 @@
-package cn.hfbin.linkedlist.dummylinkedlist;
+package cn.hfbin.linkedlist.linkedliststack;
 
 /**
  * Created by: HuangFuBin
