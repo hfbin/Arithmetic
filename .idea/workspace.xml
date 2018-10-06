@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec39c4ad-1bf1-434f-820f-b6c6bc0f24b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/BST.java" afterPath="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/BST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/hfbin/bst/unrecursion/Solution.java" afterPath="$PROJECT_DIR$/src/cn/hfbin/bst/unrecursion/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,12 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/unrecursion/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
+            <state relative-caret-position="578">
               <caret line="51" column="19" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="493">
+                <caret line="90" column="86" lean-forward="false" selection-start-line="90" selection-start-column="86" selection-end-line="90" selection-end-column="86" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -116,7 +128,6 @@
         <option value="$PROJECT_DIR$/src/cn/hfbin/linkedlist/leetcodetest/Solution2.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/linkedlist/leetcodetest/Solution3.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/linkedlist/leetcodetest/Solution.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/Bst.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/linkedlist/dummylinkedlist/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/BST.java" />
@@ -125,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/unrecursion/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/BST.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/unrecursion/Solution.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -143,8 +155,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="591" />
-    <option name="y" value="36" />
+    <option name="x" value="127" />
+    <option name="y" value="23" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -479,15 +491,15 @@
       <workItem from="1538532816389" duration="4599000" />
       <workItem from="1538618011535" duration="16475000" />
       <workItem from="1538707415303" duration="10367000" />
-      <workItem from="1538816291965" duration="1637000" />
+      <workItem from="1538816291965" duration="2570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98997000" />
+    <option name="totallyTimeSpent" value="99930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="591" y="36" width="1936" height="1056" extended-state="0" />
+    <frame x="127" y="23" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -781,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1071">
-            <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/hfbin/linkedlist/leetcodetest/Solution3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -865,9 +867,9 @@
         <state relative-caret-position="309">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#3015#3016#0" expanded="true" />
-            <element signature="e#3047#3048#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="false" />
+            <element signature="e#3015#3016#0" expanded="false" />
+            <element signature="e#3047#3048#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -926,9 +928,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/unrecursion/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="578">
           <caret line="51" column="19" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="493">
+            <caret line="90" column="86" lean-forward="false" selection-start-line="90" selection-start-column="86" selection-end-line="90" selection-end-column="86" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
