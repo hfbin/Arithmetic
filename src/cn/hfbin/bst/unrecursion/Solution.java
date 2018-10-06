@@ -39,4 +39,16 @@ public class Solution {
 
         return res;
     }
+
+    public List<Integer> preorderTraversal2(TreeNode root) {
+        List<Integer> res = new LinkedList<>();
+        if(root == null)
+            return null;
+
+        System.out.println(root.val);
+        res.add(root.val);
+        preorderTraversal(root.left);
+        preorderTraversal(root.right);
+        return res;
+    }
 }
