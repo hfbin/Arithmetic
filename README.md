@@ -86,7 +86,7 @@ contains(e)     O(n)
 源码：https://github.com/hfbin/Arithmetic/tree/master/src/cn/hfbin/linkedlist/linkedlistqueue
 
 #### 3、二叉树
-前中后遍历
+前中后序遍历
 
 例：
 
@@ -104,3 +104,7 @@ contains(e)     O(n)
 源码：https://github.com/hfbin/Arithmetic/blob/master/src/cn/hfbin/bst/recursion/BST.java
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86eaa78d531ffdc5600ee4e1b893e1014862fbc8
