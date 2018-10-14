@@ -88,4 +88,19 @@ contains(e)     O(n)
 #### 3、二叉树
 前中后遍历
 
+例：
+
+        /////////////////  
+        //      5      //
+        //    /   \    //
+        //   3    6    //
+        //  / \    \   //
+        // 2  4     8  //
+        /////////////////
+        
+        
+ 前序结果： 5 3 2 4 6 8   中序结果：2 3 4 5 6 8   后续结果： 2 4 3 8 6 5
+
 源码：https://github.com/hfbin/Arithmetic/blob/master/src/cn/hfbin/bst/recursion/BST.java
+
+
