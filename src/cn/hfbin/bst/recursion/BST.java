@@ -36,18 +36,19 @@ public class BST<E extends Comparable<E>> {
     }
 
     // 向以node为根的二分搜索树中插入元素e，递归算法
-    // 返回插入新节点后二分搜索树的根
+    // 返回插入新节点后二分搜索树的根    5, 3, 6, 8, 4, 2
     private Node add(Node node, E e){
+
         if(node == null){
             size ++;
             return new Node(e);
         }
-
+        System.out.println("in"+node.e);
         if(e.compareTo(node.e) < 0)
             node.left = add(node.left, e);
         else if(e.compareTo(node.e) > 0)
             node.right = add(node.right, e);
-
+        System.out.println("out"+node.e);
         return node;
     }
 
