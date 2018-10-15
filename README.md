@@ -104,7 +104,4 @@ contains(e)     O(n)
 源码：https://github.com/hfbin/Arithmetic/blob/master/src/cn/hfbin/bst/recursion/BST.java
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 86eaa78d531ffdc5600ee4e1b893e1014862fbc8
