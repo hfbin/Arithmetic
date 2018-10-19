@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec39c4ad-1bf1-434f-820f-b6c6bc0f24b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/BST.java" afterPath="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/BST.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +35,7 @@
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/other/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -45,10 +45,10 @@
         </entry>
       </file>
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/other/BST.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="166" column="17" lean-forward="false" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -150,6 +150,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/maxmin/BST.java" />
         <option value="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/other/BST.java" />
+        <option value="$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/BST.java" />
       </list>
     </option>
   </component>
@@ -243,7 +244,7 @@
               <item name="hfbin" type="462c0819:PsiDirectoryNode" />
               <item name="bst" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
@@ -573,12 +574,12 @@
       <workItem from="1539528327409" duration="2988000" />
       <workItem from="1539618929578" duration="3983000" />
       <workItem from="1539878180181" duration="3319000" />
-      <workItem from="1539929897091" duration="739000" />
+      <workItem from="1539929897091" duration="3329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113360000" />
+    <option name="totallyTimeSpent" value="115950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1012,7 +1013,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/other/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1020,10 +1021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/other/BST.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/hfbin/bst/recursion/random/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="185">
+          <caret line="166" column="17" lean-forward="false" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
           <folding />
         </state>
       </provider>
