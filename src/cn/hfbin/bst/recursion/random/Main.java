@@ -1,4 +1,4 @@
-package cn.hfbin.bst.recursion.other;
+package cn.hfbin.bst.recursion.random;
 
 import java.util.ArrayList;
 import java.util.Random;
