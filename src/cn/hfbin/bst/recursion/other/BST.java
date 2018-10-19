@@ -1,4 +1,4 @@
-package cn.hfbin.bst.recursion.maxmin;
+package cn.hfbin.bst.recursion.other;
 
 import java.util.LinkedList;
 import java.util.Queue;
